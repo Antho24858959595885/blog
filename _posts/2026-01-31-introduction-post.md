@@ -10,7 +10,7 @@ date: 2026-01-31
 
 
 
-\ My setup experience
+ My setup experience
 
 
 
@@ -18,21 +18,21 @@ Setup was fairly standard, I had a lot of fun working through each file and movi
 
 
 
-\ What I Learned
+ What I Learned
 
-\- the first thing I learned was how these websites are actually created, it was really cool being able to lift up the veil and be on the other side of things. 
+- The first thing I learned was how these websites are actually created, it was really cool being able to lift up the veil and be on the other side of things. 
 
-\- Second thing I learned was how to augment files in the PowerShell, it was easier to move them with a command rather than picking them off one by one, and I've never done that before!
+- Second thing I learned was how to augment files in the PowerShell, it was easier to move them with a command rather than picking them off one by one, and I've never done that before!
 
-\- Third thing I learned was how to start up a local server for a webpage, it was super simple and very easy to control. 
+- Third thing I learned was how to start up a local server for a webpage, it was super simple and very easy to control. 
 
 
 
-\ My links 
+ My links 
 
-\[GitHub](https://github.com/Antho24858959595885/blog)  
+ [GitHub](https://github.com/Antho24858959595885/blog)  
 
-\[Jekyll](https://jekyllrb.com)
+ [Jekyll](https://jekyllrb.com)
 
 
 
