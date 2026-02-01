@@ -1,18 +1,13 @@
 ---
 layout: page
-title: About
+title: About Me!
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Hello! my name is Anthony Sandoval, an unddergraduate at Hendrix College, and welcome to my blog! I can't wait to share my ideas and explore Database and Web Systems with you all! 
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Some fun facts about me: 
+- aquatic life is my passion! 
+- I am an international competitor for the Pokemon Trading Card Game
+- My recent passion has been playing Fall Guys
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
