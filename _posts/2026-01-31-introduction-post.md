@@ -10,7 +10,7 @@ date: 2026-01-31
 
 
 
-\## My setup experience
+\ My setup experience
 
 
 
@@ -18,7 +18,7 @@ Setup was fairly standard, I had a lot of fun working through each file and movi
 
 
 
-\## What I Learned
+\ What I Learned
 
 \- the first thing I learned was how these websites are actually created, it was really cool being able to lift up the veil and be on the other side of things. 
 
@@ -28,7 +28,7 @@ Setup was fairly standard, I had a lot of fun working through each file and movi
 
 
 
-\### My links 
+\ My links 
 
 \[GitHub](https://github.com/Antho24858959595885/blog)  
 
