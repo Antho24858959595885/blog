@@ -6,6 +6,8 @@ title: "Introduction Post"
 
 date: 2026-01-31
 
+author: Anthony Sandoval
+
 ---
 
 
