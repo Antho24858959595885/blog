@@ -12,44 +12,44 @@ title: "Lab 6: Data Modeling"
 
 ## User Stories 
 
-### US1 — Customer Registration (3 points)
+### US1 — Customer Registration 
 As a customer, I want to register with my name, address, and phone number so that I can place orders.  
 **Depends on:** none  
 **Connects to:** US3 (must be registered to start an order)
 
-### US2 — View Items for Sale (2 points)
+### US2 — View Items for Sale 
 As a customer, I want to browse items with name, price , description, quantity available, and manufacturer so that I can decide what to buy.  
 **Depends on:** US5 (store owner must create items first)  
 **Connects to:** US4
 
-### US3 — Create / Manage a Draft Order (Pickup or Delivery) (5 points)
+### US3 — Create / Manage a Draft Order (Pickup or Delivery) 
 As a registered customer, I want to start an order for pickup or delivery so that I can build my cart before checkout.  
 **Depends on:** US1  
 **Connects to:** US4, US6
 
-### US4 — Add Items to Order With Quantity + Instructions + Substitution Flag (5 points)
+### US4 — Add Items to Order With Quantity + Instructions + Substitution Flag 
 As a customer, I want to add items to my order with quantity desired, special instructions, and substitution permission so that my order is accurate even if stock changes.  
 **Depends on:** US2 and US3  
 **Connects to:** US6
 
-### US5 — Store Owner Manages Catalog and Inventory (8 points)
+### US5 — Store Owner Manages Catalog and Inventory 
 As the store owner, I want to create and update items (name, price, description, quantity available, manufacturer) so that customers can shop online.  
 **Depends on:** none  
 **Connects to:** US2, US4
 
-### US6 — Finalize Order With Scheduled Fulfillment Time (5 points)
+### US6 — Finalize Order With Scheduled Fulfillment Time 
 As a customer, I want to choose a time and date for fulfillment and finalize my order so the store can prepare it and I can’t accidentally change it afterward.  
 **Depends on:** US3 and US4  
 **Connects to:** the “Finalized orders cannot be changed” rule
 
-## LucidChart ERD (PNG)
-![LucidChart ERD](/assets/images/lab6_erd.png)
+## LucidChart ERD 
+![LucidChart ERD]({{ "/assets/images/lab6_erd.png" | relative_url }})
 
 ### ERD Discussion
 My LucidChart uses five entities: Customer, Manufacturer, Order, Item, and Order_Item. A customer can place many orders, and each order belongs to one customer (tracked by their id), just like how Manufacters can make many items but only one manufacturer. Because an order can have many items and an item can appear in many different orders, I used Order_Item as a bridge between the two. I thought it would also be useful to store order specific details like desired quantities and special customer instructions (with potential to subsistute items, which Walmart has been so kind to automatically do for me). For housekeeping concerns, I also included an order status and a scheduled fulfillment date/time on the order so nothing can be changed when the order is already complete.  
 
-## Redgate Schema (PNG)
-![Redgate Schema](/assets/images/lab6_schema.png)
+## Redgate Schema 
+![Redgate Schema]({{ "/assets/images/lab6_schema.png" | relative_url }})
 
 ### Schema Discussion
 Almost everything stayed the same for my Schema desigm. although I roughly mentioned primary and foreign keys in my LucidChart design, they are much more formally defined here. Each table has a primary key (customer_id, order_id, and item_id) to identify records. They promote the same relationships shown in my first diagram: Order links to Customer, Item links to Manufacturer, and Order_Item links to both Order and Item. This structure keeps the catalog data seperate from the customer data. 
