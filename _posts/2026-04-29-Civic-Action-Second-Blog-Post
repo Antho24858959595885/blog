@@ -2,6 +2,7 @@
 layout: post
 title: "Civic Action Second Client Meeting and Progress Update"
 author: Anthony Sandoval
+date: 2026-04-29
 ---
 
 Since my last post, my role has started to become more focused on the actual back-end relationship between the student and admin parts of the website. Earlier in the project, I was mostly helping think through the schema and how the big pieces should connect. Now, I've started thinking more about how those ideas actually work on the website when someone is clicking through it.
